@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @aws_blog.title %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @aws_blog.content %>
+</p>
+
+<%= link_to 'Edit', edit_aws_blog_path(@aws_blog) %> |
+<%= link_to 'Back', aws_blogs_path %>

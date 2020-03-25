@@ -1,0 +1,2 @@
+class AwsBlog < ApplicationRecord
+end
